@@ -1,0 +1,9 @@
+---
+http.host: "0.0.0.0"
+path.config: /usr/share/logstash/pipeline
+# automatic reloading will not work with stdin input
+config.reload.automatic: false
+xpack.monitoring.enabled: false
+log.level: warn
+# having one worker ensures the order of logs stays consistent to prevent concurrency issues
+pipeline.workers: 1

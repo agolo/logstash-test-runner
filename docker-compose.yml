@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  logstash:
+    image: docker.elastic.co/logstash/logstash:5.5.1
+    volumes:
+      - ./config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./pipeline/pipeline-beats.conf:/usr/share/logstash/pipeline/pipeline-beats.conf
+      - ./output.log:/output.log
+  mongo_filebeat:
+    image: docker.elastic.co/beats/filebeat:5.5.1
+    volumes:
+      - ./mongo/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./mongo/input.log:/input.log
+  busybox:
+    image: busybox
+    command: cat

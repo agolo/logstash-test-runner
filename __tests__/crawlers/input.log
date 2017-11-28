@@ -1,0 +1,419 @@
+2017-08-27 21:55:36 [main] ERROR com.agolo.crawlers.RssCrawlerWorker  org.bson.Document cannot be cast to java.lang.String
+java.lang.ClassCastException: org.bson.Document cannot be cast to java.lang.String
+	at org.bson.Document.getString(Document.java:197)
+	at com.agolo.crawlers.RssCrawlerWorker.updateSource(RssCrawlerWorker.java:392)
+	at com.agolo.crawlers.RssCrawlerWorker.upsertSourceToDatabases(RssCrawlerWorker.java:378)
+	at com.agolo.crawlers.RssCrawlerWorker.processTask(RssCrawlerWorker.java:260)
+	at com.agolo.crawlers.RssCrawlerWorker.main(RssCrawlerWorker.java:162)
+2017-08-27 21:55:36 [main] INFO  com.agolo.utils.mongodb.MongoHelper  Connected to [mydatabaseurl.com:27018,mydatabase.com:27018]
+2017-08-27 21:55:36 [main] INFO  c.agolo.utils.mongodb.AgoloDatabase  ID 123456 : Updated article http://dienekes.blogspot.com/2017/07/deepest-neandertal-mtdna-split.html from sources [Document{{_id=http://feeds.feedburner.com/dienekes, name=Dienekes’ Anthropology Blog, publisher=Dienekes’ Anthropology Blog, format=application/rss+xml}}] in 24 MS
+2017-08-27 21:55:35 [main] INFO  c.agolo.utils.mongodb.AgoloDatabase  ID -456789 : Updating article.sources for already existing article with original_id : http://nightwalker.cocolog-nifty.com/money/2017/08/post-ec56.html
+2017-08-27 21:51:45 [main] WARN  o.a.h.c.p.ResponseProcessCookies  Cookie rejected [JSESSIONID="abcdef", version:0, domain:nature.com, path:/oa, expiry:null] Illegal 'path' attribute "/oa". Path of origin: "/doifinder/10.1038/nnano.2017.165"
+2017-08-27 12:02:16 [main] WARN  c.agolo.crawlers.inputs.rss.RssInput  HttpResponseException at http://www.coupons.com/RSSlink.asp?q=e999919779022
+com.google.api.client.http.HttpResponseException: 404 Not Found
+<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true">
+    <title>Oops - Page Not Found!</title><meta name="robots" content="noodp" >
+<meta name="description" content="Save money on hundreds of brands in store or online with Coupons.com. Find printable coupons for grocery and top brands. Get verified coupon codes daily." >    <link rel="shortcut icon" href="//cdn.cpnscdn.com/static.coupons.com/Sites/img/shared/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="//cdn.cpnscdn.com/static.coupons.com/Sites/img/shared/favicon.ico">
+    <link href="//cdn.cpnscdn.com/nv.web/combo/css/b0b6ddd958886b5db6c905daf2c07344.css" media="screen" rel="stylesheet" type="text/css" ><link href="//cdn.cpnscdn.com/nv.web/combo/css/f1cf501a9e065fa2390a293a21cf66db.css" media="all" rel="stylesheet" type="text/css" ><!--[if IE 8]> <link href="//cdn.cpnscdn.com/nv.web/combo/css/234bae9a4cc6d08a3b47bd4e9ae424bc.css" media="all" rel="stylesheet" type="text/css" ><![endif]--><!--[if print]> <link href="//cdn.cpnscdn.com/nv.web/combo/css/995ca30a26752218c925f27c34206218.css" media="all" rel="stylesheet" type="text/css" ><![endif]--></head>
+<body class="loading">
+     <script type="text/javascript" src="//cdn.cpnscdn.com/nv.web/combo/js/9294fe99f2ba50868ffc60347944f9a5.js"></script>    <noscript>
+    <div style="position:fixed; top:0; left:0; display:none" width="1" height="1">
+        <img src="//collector-PXkms9swQM.perimeterx.net/api/v1/collector/noScript.gif?appId=PXkms9swQM">
+    </div>
+</noscript>
+            <div id="header">
+        <div class="mod-header">
+    <a href="/" class="company-logo" title="Return&#32;to&#32;home&#32;page">
+    <img alt="Coupons&#46;com" width="80" height="50" src="//cdn.cpnscdn.com/static.coupons.com/Sites/img/shared/logos/coupons_logo160x100.png">
+</a>
+<div class="navbar">
+    <div class="tab-container">
+        <ul class="tablist horizontal-list">
+            <li class="tab selected">
+    <a class="sprite-utils" id="tab-coupons" href="/coupons/"   >Coupons</a>
+</li>
+<li class="tab">
+    <a class="sprite-utils" id="tab-coupon-codes" href="https://www.coupons.com/coupon-codes/"   >Coupon Codes</a>
+</li>
+<li class="tab">
+    <a class="sprite-utils" id="tab-cash-back-offers" href="https://www.coupons.com/card-linked-offers/"   >Cash Back Offers</a>
+</li>
+<li class="tab">
+    <a class="sprite-utils" id="tab-loyalty-coupons" href="/store-loyalty-card-coupons/"   >Loyalty Coupons</a>
+</li>
+<li class="tab last">
+    <a class="sprite-utils" id="tab-thegoodstuff" href="http://www.coupons.com/thegoodstuff/"   >thegoodstuff</a>
+</li>
+                        <li class="mod-signinsignuplinks">
+                <a rel="nofollow" href="https://www.coupons.com/sign-up?sig=NDAzYmYxNTNhYmQ3NDEwYTdmYzc3ZDE5NGE5MzFhMGVkNTRiYmJkNg&done=%2Fclick.asp%3Fc%3De%26ver%3D9999%26v%3D19779022&ts=1503835336" class="signup">Sign Up</a>
+            </li>
+                    </ul>
+    </div>
+</div>
+    <div class="clearfix"></div>
+</div>
+    </div>
+
+    <div id="hero">
+        <div class="mod-ads container-hero ">
+
+    <div id="ad-widget-hero-embedder-ads-hero-0"></div>
+
+</div>    </div>
+
+    <div id="layer-top-on-hover">
+        <div class="center">
+            <div class="mod-signinsignuplinks">
+    <div class="menu siso-dropdown">
+    <div class="curr-title"><div class="sprite-icons"><span class="sprite-icons triangle triangle-down"></span></div></div>
+    <ul class="sub">
+            <li><a rel="nofollow" class="signin" href="https://www.coupons.com/sign-in?sig=NDAzYmYxNTNhYmQ3NDEwYTdmYzc3ZDE5NGE5MzFhMGVkNTRiYmJkNg&done=%2Fclick.asp%3Fc%3De%26ver%3D9999%26v%3D19779022&ts=1503835336" target="_self">Sign In</a></li>
+            <li><a rel="nofollow" class="faq" href="http://help.coupons.com/?pid=13306&nid=10&zid=iq37" target="_blank">Help</a></li>
+        </ul>
+</div>
+</div>        </div>
+    </div>
+
+    <div id="layer-top-on-hover-codes">
+        <div class="center">
+            <div class="mod-codescategories">
+        <div class="menu codes-dropdown">
+    <div class="curr-title">
+        <a href="https://www.coupons.com/coupon-codes/">Coupon&#32;Codes            <div class="sprite-icons triangle triangle-down"></div>
+        </a>
+    </div>
+    <ul class="sub">
+     <li>
+    <a target="_self" href="https://www.coupons.com/back-to-school-sales/">
+        <p>Back to School Sales</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/tire-buyer/">
+        <p>Tirebuyer </p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/footlocker.com/">
+        <p>Foot Locker</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/amazon/">
+        <p>Amazon</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/extended-stay-america/">
+        <p>Extended Stay America</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/jcpenney.com/">
+        <p>JCPenney</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/musicians-friend/">
+        <p>Musician&#39;s Friend</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/verabradley.com/">
+        <p>Vera Bradley</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/landsend.com/">
+        <p>Lands&#39; End</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/bestbuy.com/">
+        <p>Best Buy</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/road-runner-sports/">
+        <p>Road Runner Sports</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/walgreens.com/">
+        <p>Walgreens</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/snapfish.com/">
+        <p>Snapfish</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/kay.com/">
+        <p>Kay Jewelers</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/gap/">
+        <p>Gap</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/verizonwireless.com/">
+        <p>Verizon</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/macys/">
+        <p>Macy&#39;s</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/hp.com/">
+        <p>HP</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/kohls.com/">
+        <p>Kohl&#39;s</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/lordandtaylor.com/">
+        <p>Lord and Taylor</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/dickssportinggoods.com/">
+        <p>Dick&#39;s Sporting Goods</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/lenovo/">
+        <p>Lenovo</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/shutterfly.com/">
+        <p>Shutterfly</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/ftd/">
+        <p>FTD Flowers</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/oldnavy.com/">
+        <p>Old Navy</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/harry-and-david/">
+        <p>Harry and David</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/walmart.com/">
+        <p>Walmart</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/teleflora.com/">
+        <p>Teleflora</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/neimanmarcus.com/">
+        <p>Neiman Marcus</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/buybuy-baby/">
+        <p>BuyBuy Baby</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/tmobile/">
+        <p>T&#45;Mobile</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/sears.com/">
+        <p>Sears</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/bananarepublic.com/">
+        <p>Banana Republic</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/newegg.com/">
+        <p>Newegg</p>
+    </a>
+</li>
+
+
+<li>
+    <a target="_self" href="https://www.coupons.com/coupon-codes/microsoft/">
+        <p>Microsoft</p>
+    </a>
+</li>
+
+
+        <li>
+            <a class="viewall" href="https://www.coupons.com/coupon-codes/stores/">View All &#62;</a>
+        </li>
+    </ul>
+</div>
+</div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div id="content">
+            <div id="main">
+<style>
+      p.error-message { color: #000080; font-weight: bold; width: 309px; font-size: 16px; font-family: Arial; margin: 20px auto 0; }
+      .error-details { text-align: left; }
+</style>
+
+<div style="text-align: center; margin-top: 40px">
+<a href="http://www.coupons.com/"><img src="//cdn.cpnscdn.com/static.coupons.com/Sites/img/shared/logos/coupons_logo289x126.png" alt="Coupons.com" width="289" height="126"></a>
+
+<p class="error-message">We're sorry, the page you are looking for does not exist or has been moved.</p>
+<p class="error-message">Please check the link and try again.</p>
+</div>
+
+
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="loading-overlay">
+                <img width="32" height="32" src="//cdn.cpnscdn.com/static.coupons.com/Sites/img/bigblue/spinner.gif">
+                <p>Loading...</p>
+            </div>
+        </div>
+
+        <div id="footer">
+            <!-- Begin Widget Footer -->
+<div class="mod mod-promos visible-md visible-lg"><ul><li><a href='/sign-up' target="_blank"><img width="220" height="130" src="//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/footer-SuperSaver_1.jpg" /></a><h3>Get our Emails</h3><p>Never miss another great coupon. Save more than before with savings alerts and new offers delivered right to your inbox.</p><a href='/sign-up' target="_blank" class="btn btn-primary btn-small">Sign Up</a></li><li><a href='//www.coupons.com/lp/apps' target="_blank"><img width="220" height="130" src="//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/footer-app-marketing-06122017.jpg" /></a><h3>Coupons.com Mobile App</h3><p>Save $100s with free paperless grocery coupons at your favorite stores!   Link your store loyalty cards, add coupons, then shop and save.</p><a href='//www.coupons.com/lp/apps' target="_blank" class="btn btn-primary btn-small">Get App</a></li><li><a href='/coupon-codes/' target="_blank"><img width="220" height="130" src="//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/footer-Couponcodes.png" /></a><h3>Coupon Codes</h3><p>Shop online with coupon codes from top retailers. Get <a target="_blank" href="//www.coupons.com/coupon-codes/sears.com/">Sears coupons</a>, <a target="_blank" href="//www.coupons.com/coupon-codes/bestbuy.com/">Best Buy coupons</a>, and enjoy great savings with a <a target="_blank" href="//www.coupons.com/coupon-codes/nordstrom.com/">Nordstrom promo code</a>.</p><a href='/coupon-codes/' target="_blank" class="btn btn-primary btn-small">Shop Now</a></li><li><a href='//www.quotient.com/' target="_blank"><img width="220" height="130" src="//cdn.cpnscdn.com/static.coupons.com/Sites/img/shared/footer-AboutUs-newlogo-220x130-v2.png" /></a><h3>About Us</h3><p>Find out more about how Coupons.com helps brands and retailers engage consumers with our portfolio of digital, social & mobile solutions.</p><a href='//www.quotient.com/' target="_blank" class="btn btn-primary btn-small">See Details</a></li></ul></div><div class="mod mod-footer widget"><link rel="stylesheet" href="/widget/css/couponscom-footer-riq/widget/urban/footer-widget.css" media="all" charset="utf-8"><div class="sitemap"><ul class="list-inline small"><li class=""><a href="//www.quotient.com/" target="_blank">About</a></li><li class=""><a href="http://help.coupons.com" target="_blank">Help</a></li><li class="visible-md visible-lg"><a href="//www.quotient.com/solutions/" target="_blank">Business Solutions</a></li><li class="visible-md visible-lg"><a href="https://brandcaster.coupons.com/home/?ref=50001" target="_blank">Affiliate Program</a></li><li class="visible-md visible-lg"><a href="//www.quotient.com/careers/" target="_blank">Careers</a></li><li class="hidden-lg hidden-md hidden-sm"><a href="//www.quotient.com/privacy-policy/" target="_blank">Privacy Policy</a></li><li class="visible-lg"><span class="mod mod-fblike"><fb:like action="like" show_faces="false" width="90" layout="button_count" send="false" href="http://www.facebook.com/couponscom" /></span></li></ul></div><div class="copyright visible-lg visible-md"><div class="ft small"><div class="left"><span>&copy; Copyright 2017 <a class="msg" href="//www.quotient.com">Quotient Technology Inc</a>. All Rights Reserved.</span>&nbsp;<ul class="footer-links list-inline"><li><a class="" href="http://help.coupons.com/" target="_blank">Help</a></li><li><a class="" href="//www.quotient.com/terms-of-use/" target="_blank">Term of Use</a></li><li><a class="" href="//www.quotient.com/privacy-policy/" target="_blank">Privacy Policy</a></li><li><a class="" href="//www.quotient.com/privacy-policy/#your-privacy-rights" target="_blank">Your Privacy Rights</a></li><li><a class="sprite-icons adchoices" href="//www.quotient.com/interest-based-advertising-policies/" target="_blank">Ad Choices</a></li></ul></div><div class="right"><ul class="list-inline endorsement visible-lg"><li><a class="sprite-icons endorse truste" target="_blank" href="//privacy.truste.com/privacy-seal/validation?rid=c7089cba-f9ee-4208-a8ae-178e00da5c4d" title="TRUSTe European Safe Harbor certification"></a></li><li><a class="sprite-icons endorse bbb" target="_blank" href="http://www.bbb.org/sanjose/business-reviews/marketing-programs-and-services/couponscom-incorporated-in-mountain-view-ca-223835#sealclick" title="Click for the Business Review of Coupons.com Incorporated, a Marketing Programs &amp; Services in Moutain View CA"></a></li></ul></div></div></div></div><!-- widgetsource:dca-prd-uxnd104 Thu Aug 17 2017 23:01:26 GMT+0000 (UTC) 2.55.167--><!-- End Widget Footer -->
+        </div>
+    </div>
+    <div class="flyout-inner hidden"></div>
+    <div id="no-print">
+        <p>To print coupons:</p>
+        <ul>
+            <li>Select the coupons you want by clicking "CLIP"</li>
+            <li>Click the "Print Coupons" button</li>
+            <li>Redeemable coupons will automatically be sent to your printer</li>
+        </ul>
+    </div>
+    <!-- script block -->
+    <script>
+    var APP_COUPONSINC = { "contextData" : {"pathName":"coupons","fbAppId":"2412324777","isMobilePrinting":0,"userInitTimeout":"5000","socketMaxTry":"2","socketTimeWait":"0","printControl":"new","allowEZPrint":true,"printClipLimit":150,"iframePrinting":false,"supportLocalEZPrint":false,"ezPrintLimit":"150","batchPrintingEnabled":true,"isSecureSite":true,"forceCPS":false,"pluginOnFF":false,"controller":"coupons","actionName":"index","currentCategoryID":"0","bid":"ALK08270501255E4BF4914119194","pbid":"","tid":"ALK08270501255E4BF4914119194","plid":"","crid":"","mod":"","userCheck":"YcWIZNDOhnATrWCFrj-CcEKNEVI00vfcuqwPPzkaLaI","CouponClubEnabled":"0","zip":"20026","defaultAjaxLogLimit":"20","AjaxLogCount":0,"pid":"13306","nid":"10","zid":"iq37","offeroftheweek":[{"prgmId":13836,"prgmType":2,"useCustmCoupImg":0,"prgmName":"Nestle Purina - Fancy Feast - OOTW - 8\/27\/2017","prgmText":"","prgmAddnText":"","prgmImgURL":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/176\/19890176.gif","prgmPllwImgURL":"http:\/\/cdn.cpnscdn.com\/static.coupons.com\/images\/cprimages\/836\/13836_2_prgId.gif","startDate":"2017-08-27","endDate":"2017-09-02","imgHeight":0,"imgWidth":0,"redirectURL":"","prgmCoupons":[{"couponId":19890176,"couponText":null,"couponImgUrl":""}],"restricted":false,"couponId":"19890176","summary":"Save $1.00","brand":"Fancy Feast\u00ae","catdesc1":"Pet Care","catlevel1":"102","catlevel2":"199","catlevel3":205,"authPrintEnabled":true,"type":"0","value":100,"details":"on ten (10) cans of Purina\u00ae Fancy Feast\u00ae Medleys Gourmet Cat Food, any variety","couponText":null,"fid":"09769280","sid":"10120895","entityData":{}}],"ads":{"currentCategoryName":"show all","ci_ad":[],"dfp_async_widget":{"items":{"leavebehind":{"width":"970","height":"90","srcUrl":"","displayOnPageload":0,"generateFrameSrcOnPageload":1,"rotateOnLayoutStateChanged":"once","rotateOnPagination":0,"rotatePrevious":0,"currPageOnly":0,"isInHouse":0,"showInBottom":null,"embedderID":"embedder-ads-leavebehind-","useWidget":true},"hero":{"width":"970","height":"250","srcUrl":"","displayOnPageload":1,"generateFrameSrcOnPageload":1,"rotateOnLayoutStateChanged":"","rotateOnPagination":0,"rotatePrevious":0,"currPageOnly":0,"isInHouse":0,"showInBottom":null,"embedderID":"embedder-ads-hero-","useWidget":true},"last_leaderboard":{"width":"728","height":"90","srcUrl":"","displayOnPageload":0,"generateFrameSrcOnPageload":1,"rotateOnLayoutStateChanged":"","rotateOnPagination":0,"rotatePrevious":0,"currPageOnly":1,"isInHouse":0,"showInBottom":"1","embedderID":"embedder-ads-last_leaderboard-","useWidget":true},"leaderboard":{"width":"728","height":"90","srcUrl":"","displayOnPageload":1,"generateFrameSrcOnPageload":1,"rotateOnLayoutStateChanged":"","rotateOnPagination":1,"rotatePrevious":0,"currPageOnly":1,"isInHouse":0,"showInBottom":null,"embedderID":"embedder-ads-leaderboard-","useWidget":true},"mrec":{"width":"300","height":"250","srcUrl":"","displayOnPageload":1,"generateFrameSrcOnPageload":1,"rotateOnLayoutStateChanged":"","rotateOnPagination":1,"rotatePrevious":1,"currPageOnly":0,"isInHouse":0,"showInBottom":null,"embedderID":"embedder-ads-mrec-","useWidget":true},"crispads":{"width":"1","height":"2","srcUrl":"","displayOnPageload":1,"generateFrameSrcOnPageload":1,"rotateOnLayoutStateChanged":"","rotateOnPagination":0,"rotatePrevious":0,"currPageOnly":0,"isInHouse":0,"showInBottom":null,"embedderID":"embedder-ads-crispads-","useWidget":true}}}},"User":{"IsLoggedIn":0,"DetectedZip":"20026","Stores":[],"SuperSaver":0,"CouponClubMember":{"Status":0,"Newsletter":0,"ExpDate":"01\/01\/1900"}},"brighttag":{"siteid":"i54834M"},"couponcarrier":{"total":{"availableTotal":{"count":372,"value":67802},"clippableTotal":{"count":317,"value":62802},"clippedTotal":0}},"emailcollector":{"isCandidate":false,"delay":60000,"flagExpire":2592000000},"featuredToday":{"regularFeatures":[],"featuredBrand":[]},"kochavasdk":{"guid":"kocoupons-com-web-production-1111e7c","version":"v1","autopage":"","browsercache":"","verbose":""},"gallery":{"catId":null,"catName":"","catPodList":"","brand":null,"cid":"","sel":null,"seg":null,"q":"","storename":null,"storeid":null,"store_offer_company_id":0,"legacy_compaign_name":"","qid":"","correctquery":"","totalPods":372,"podsPerPage":27,"showBackToHome":false,"pagenum_max_count":10,"sharerURL":"\/\/sharer.coupons.com\/sharer.asp?pid=13306\u0026nid=10\u0026zid=iq37","slide_duration":0,"max_manual_load":0,"scroll_load_distance_px":0,"artificial_load_delay_ms":0,"loaded_effect_duration_ms":3000,"podCache":{"19879171":{"podId":"19879171","type":"0","cclass":0,"value":50,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/171\/19879171.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE 50\u00a2 ON ONE","brand":"Big G Cereals","brandId":260,"companyId":1065,"link_text":null,"link_url":null,"activated":"2017-08-01T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-08-31T23:59:00-0700","isuff":"171\/19879171.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"when you buy ONE BOX Cinnamon Toast Crunch\u2122, Apple Cinnamon Toast Crunch\u2122, Strawberry Toast Crunch\u2122, Blueberry Toast Crunch\u2122 ...","catid":531,"catdesc":"Ready to Eat Cereal","slot":-450,"prodinfo":"when you buy ONE BOX Cinnamon Toast Crunch\u2122, Apple Cinnamon Toast Crunch\u2122, Strawberry Toast Crunch\u2122, Blueberry Toast Crunch\u2122 ...","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"14284459","fid":"05594711","videoURL":null,"catlevel1":"107","catlevel2":"399","catlevel3":531,"catdesc1":"Foods","catdesc2":"Breakfast","catdesc3":"Ready to Eat Cereal","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Void if altered, copied, sold, purchased, transferred, exchanged or where prohibited or restricted by law. One coupon per purchase of specified product(s). Good only in USA, APOs \u0026 FPOs. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax. RETAILER: General Mills will reimburse you the face value of this coupon plus handling if submitted in compliance with our redemption policy. Copy available upon request. Cash value 1\/100 cent. Send to GENERAL MILLS 8, NCH Marketing Services, P.O. Box 880001, El Paso TX 88588-0001 or an authorized clearinghouse. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19972156":{"podId":"19972156","type":"0","cclass":0,"value":75,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/156\/19972156.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $0.75","brand":"PHILADELPHIA","brandId":506,"companyId":1052,"link_text":null,"link_url":null,"activated":"2017-08-21T00:01:00-0700","expiration":"2018-01-30T23:59:00-0800","shutoff":"2017-12-31T23:59:59-0800","isuff":"156\/19972156.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on ONE (1) PHILADELPHIA Cheesecake Cups","catid":515,"catdesc":"Sweet Snacks","slot":-449,"prodinfo":"on ONE (1) PHILADELPHIA Cheesecake Cups","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"06753615","fid":"13218540","videoURL":null,"catlevel1":"107","catlevel2":"424","catlevel3":515,"catdesc1":"Foods","catdesc2":"Snacks","catdesc3":"Sweet Snacks","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"RETAILER:  Kraft Heinz Foods Company or a subsidiary, will reimburse the face value of this coupon plus handling if submitted in compliance with its Coupon Redemption Policy, previously provided to you and available upon request.  Cash value 1\/100\u00a2.  Coupon can only be distributed by Kraft Heinz Foods Company or its agent.  Mail to:  Kraft Heinz Foods Company 1539, NCH Marketing Services, P.O. Box 880001, El Paso, TX. 88588-0001. Offer expires on date noted above.  CONSUMER:  One coupon valid for item(s) indicated.  Consumer pays any sales tax and will not receive any credit or cash back if coupon value exceeds purchase price.  Any other use constitutes fraud.  VOID IF COPIED, TRANSFERRED, PURCHASED OR SOLD.  Valid only in the USA, FPOs and APOs.\n \u00a92017 Kraft Foods                                                                                                                                                                                               304544","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19880000":{"podId":"19880000","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/000\/19880000.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $1.00 ON TWO","brand":"Nature Valley","brandId":274,"companyId":1065,"link_text":null,"link_url":null,"activated":"2017-08-01T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-08-31T23:59:00-0700","isuff":"000\/19880000.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"when you buy\u00a0TWO BOXES\u00a0any flavor\/variety\u00a05 COUNT OR LARGER\u00a0Nature Valley\u2122 Granola Bars,\u00a0Nature Valley\u2122 Biscuits,\u00a0OR\u00a0...","catid":512,"catdesc":"Nutritional Snacks","slot":-448,"prodinfo":"when you buy\u00a0TWO BOXES\u00a0any flavor\/variety\u00a05 COUNT OR LARGER\u00a0Nature Valley\u2122 Granola Bars,\u00a0Nature Valley\u2122 Biscuits,\u00a0OR\u00a0...","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"09311548","fid":"10568451","videoURL":null,"catlevel1":"107","catlevel2":"424","catlevel3":512,"catdesc1":"Foods","catdesc2":"Snacks","catdesc3":"Nutritional Snacks","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Void if altered, copied, sold, purchased, transferred, exchanged or where prohibited or restricted by law. One coupon per purchase of specified product(s). Good only in USA, APOs \u0026 FPOs. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax. RETAILER: General Mills will reimburse you the face value of this coupon plus handling if submitted in compliance with our redemption policy. Copy available upon request. Cash value 1\/100 cent. Send to GENERAL MILLS 8, NCH Marketing Services, P.O. Box 880001, El Paso TX 88588-0001 or an authorized clearinghouse. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19858386":{"podId":"19858386","type":"0","cclass":0,"value":200,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/386\/19858386.gif","height":"100","width":"80"},"burstText":null,"summary":"Save $2.00","brand":"DIGIORNO\u00ae","brandId":32605,"companyId":113511,"link_text":null,"link_url":null,"activated":"2017-08-24T00:01:00-0700","expiration":"2017-10-31T23:59:00-0700","shutoff":"2017-10-31T23:59:59-0700","isuff":"386\/19858386.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any ONE (1) DIGIORNO\u00ae Crispy Pan Pizza","catid":5472,"catdesc":"Frozen Pizza","slot":-446,"prodinfo":"on any ONE (1) DIGIORNO\u00ae Crispy Pan Pizza","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"10267569","fid":"09590816","videoURL":null,"catlevel1":"107","catlevel2":"552","catlevel3":5472,"catdesc1":"Foods","catdesc2":"Frozen Foods","catdesc3":"Frozen Pizza","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Coupon void if altered, copied, sold, purchased, transferred, exchanged or where prohibited or restricted by law.CONSUMER: Limit one coupon per specified item(s) purchased. This coupon good only on product sizes and varieties indicated.RETAILER: NESTL\u00c9 USA will reimburse you face value plus 8\u00a2, if submitted in compliance with NESTL\u00c9 USA Manufacturer\u2019s Coupon Redemption Policy dated 10\/1\/05,available upon request. Consumer must pay sales tax. Good only in USA. Send coupons to NESTL\u00c9 USA, CMS Dept. #00020, 1 Fawcett Drive, Del Rio, Texas 78840. Cashvalue 1\/20\u00a2. DIGIORNO\u00ae and RISING CRUST\u00ae are registered trademarks of Soci\u00e9t\u00e9 des Produits Nestl\u00e9 S.A. Vevey, Switzerland.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19947175":{"podId":"19947175","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/175\/19947175.gif","height":"100","width":"80"},"burstText":null,"summary":"$1.00 OFF","brand":"Cooked Perfect\u00ae Fresh Meatballs","brandId":41824,"companyId":133500,"link_text":null,"link_url":null,"activated":"2017-08-14T00:01:00-0700","expiration":"2018-01-31T23:59:00-0800","shutoff":"2017-10-17T23:59:59-0700","isuff":"175\/19947175.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any ONE (1) package of Cooked Perfect\u00ae Fresh Meatballs","catid":5464,"catdesc":"Dinner: Multi-Serve","slot":-445,"prodinfo":"on any ONE (1) package of Cooked Perfect\u00ae Fresh Meatballs","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"07492523","fid":"12454651","videoURL":null,"catlevel1":"107","catlevel2":"552","catlevel3":5464,"catdesc1":"Foods","catdesc2":"Frozen Foods","catdesc3":"Dinner: Multi-Serve","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"TO THE RETAILER: We will pay you face value of the coupon plus 8 cents if all terms are met. TERMS: Good only in USA. LIMIT ONE COUPON PER PURCHASE. Coupon void if a reproduction; transferred before store redemption; prohibited, licensed, taxed or restricted; not presented by you; you do not show on request product invoices for all redeemed coupons. Customer pays sales tax. Mail To: Home Market Foods, Inc. CMS Dept #36669, 1 Fawcett Drive, Del Rio, TX 78840. \u00a9 2017 Home Market Foods, Inc. All rights reserved.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19880003":{"podId":"19880003","type":"0","cclass":0,"value":50,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/003\/19880003.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE 50\u00a2 ON FIVE","brand":"Yoplait","brandId":280,"companyId":1065,"link_text":null,"link_url":null,"activated":"2017-08-01T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-08-31T23:59:00-0700","isuff":"003\/19880003.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"when you buy FIVE CUPS any variety Yoplait\u00ae Yogurt (Includes Original, Light, Light Thick \u0026 Creamy, Thick \u0026 Creamy, Whips!\u00ae, ...","catid":456,"catdesc":"Yogurt","slot":-444,"prodinfo":"when you buy FIVE CUPS any variety Yoplait\u00ae Yogurt (Includes Original, Light, Light Thick \u0026 Creamy, Thick \u0026 Creamy, Whips!\u00ae, ...","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"14328537","fid":"05551465","videoURL":null,"catlevel1":"107","catlevel2":"405","catlevel3":456,"catdesc1":"Foods","catdesc2":"Dairy","catdesc3":"Yogurt","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Void if altered, copied, sold, purchased, transferred, exchanged or where prohibited or restricted by law.  One coupon per purchase of specified product(s). Good only in USA, APOs \u0026 FPOs.\nCONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax.\nRETAILER: General Mills will reimburse you the face value of this coupon plus handling if submitted in compliance with our redemption policy. Copy available upon request. Cash value 1\/100 cent. Send to GENERAL MILLS 8, NCH Marketing Services, P.O. Box 880001, El Paso TX 88588-0001 or an authorized clearinghouse. \u00a9Yoplait, U.S.A., Inc. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19971139":{"podId":"19971139","type":"0","cclass":0,"value":150,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/139\/19971139.gif","height":"100","width":"80"},"burstText":null,"summary":"$1.50 OFF","brand":"ST. IVES\u00ae","brandId":44565,"companyId":1069,"link_text":null,"link_url":null,"activated":"2017-08-24T00:01:00-0700","expiration":"2017-10-22T23:59:00-0700","shutoff":"2017-09-22T23:59:59-0700","isuff":"139\/19971139.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"any ONE (1) St. Ives Face product (excludes trial and travel items)","catid":192,"catdesc":"Facial Care","slot":-442,"prodinfo":"any ONE (1) St. Ives Face product (excludes trial and travel items)","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"06184134","fid":"13787004","videoURL":null,"catlevel1":"101","catlevel2":"123","catlevel3":192,"catdesc1":"Personal Care","catdesc2":"Skin Care","catdesc3":"Facial Care","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Consumer: LIMIT ONE (1) COUPON PER PURCHASE on product\/quantity specified and MAXIMUM OF TWO (2) IDENTICAL COUPONS allowed in same shopping trip. Void if reproduced, transferred, used to purchase products for resale or where prohibited\/regulated by law. Coupon value may not exceed value of item purchased. NO CASH BACK. Consumer pays sales tax. Redeemable at participating retail stores. Valid only in the U.S. NOT VALID IN PUERTO RICO. Retailer: Unilever, Inc. 1370, NCH Marketing Services, P.O. Box 880001, El Paso, TX 88588-0001 will reimburse the face value of this coupon, plus 8c, if submitted in compliance with our redemption policy, available upon request. Cash value 1\/100th of 1c. Any use of this coupon not specified herein constitutes fraud. \u00a9 2017 UNILEVER","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19951116":{"podId":"19951116","type":"0","cclass":0,"value":300,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/116\/19951116.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $3.00","brand":"BIC\u00ae Soleil\u00ae or BIC\u00ae Soleil\u00ae Twilight\u00ae","brandId":43461,"companyId":70222,"link_text":null,"link_url":null,"activated":"2017-08-25T00:01:00-0700","expiration":"2017-10-07T23:59:00-0700","shutoff":"2017-09-30T23:58:59-0700","isuff":"116\/19951116.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on one (1) BIC\u00ae Soleil\u00ae or BIC\u00ae Soleil\u00ae Twilight\u00ae razor pack (excludes trial and travel sizes)","catid":186,"catdesc":"Razors \u0026 Blades:  Women","slot":-440,"prodinfo":"on one (1) BIC\u00ae Soleil\u00ae or BIC\u00ae Soleil\u00ae Twilight\u00ae razor pack (excludes trial and travel sizes)","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"11749849","fid":"08201266","videoURL":null,"catlevel1":"101","catlevel2":"122","catlevel3":186,"catdesc1":"Personal Care","catdesc2":"Shaving Needs","catdesc3":"Razors \u0026 Blades:  Women","restricted":0,"limitReached":0,"storeIds":["129809"],"disclaimer":"Manufacturer\u2019s Coupon CONSUMER:  Only one coupon is redeemable per purchase and only on any one (1) BIC\u00ae Soleil\u00ae or BIC\u00ae Soleil\u00ae Twilight\u00ae Disposable Razor Pack (excludes trial and travel sizes).  Limit of (2) two identical coupons per household per day.  Coupon may not be combined with any other offer and is not subject to doubling.  Void if copied, transferred, prohibited or otherwise restricted.  Consumer pays sales tax.  Good only in U.S.A.  VOID IN PUERTO RICO. RETAILER:  BIC USA INC. will redeem this coupon for $3.00 plus 8\u00a2 handling fee if submitted in compliance with BIC\u2019s Coupon Redemption Policy, copies available upon request. NO CASH OR CREDIT BACK if coupon value exceeds selling price.  Good only on specified product and sizes.  Mail coupons to BIC USA Inc. 163, NCH Marketing Services, P.O. Box 880001, El Paso, Texas 88588-0001. Cash value 1\/25 of 1\u00a2.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19879115":{"podId":"19879115","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/115\/19879115.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $1.00 ON ONE","brand":"Big G Cereals","brandId":260,"companyId":1065,"link_text":null,"link_url":null,"activated":"2017-08-01T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-08-31T23:59:00-0700","isuff":"115\/19879115.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"when you buy ONE BOX Apple Cinnamon Toast Crunch\u2122, Strawberry Toast Crunch\u2122 OR Blueberry Toast Crunch\u2122","catid":531,"catdesc":"Ready to Eat Cereal","slot":-430,"prodinfo":"when you buy ONE BOX Apple Cinnamon Toast Crunch\u2122, Strawberry Toast Crunch\u2122 OR Blueberry Toast Crunch\u2122","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"11636803","fid":"08242311","videoURL":null,"catlevel1":"107","catlevel2":"399","catlevel3":531,"catdesc1":"Foods","catdesc2":"Breakfast","catdesc3":"Ready to Eat Cereal","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Void if altered, copied, sold, purchased, transferred, exchanged or where prohibited or restricted by law. One coupon per purchase of specified product(s). Good only in USA, APOs \u0026 FPOs. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax. RETAILER: General Mills will reimburse you the face value of this coupon plus handling if submitted in compliance with our redemption policy. Copy available upon request. Cash value 1\/100 cent. Send to GENERAL MILLS 8, NCH Marketing Services, P.O. Box 880001, El Paso TX 88588-0001 or an authorized clearinghouse. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19972103":{"podId":"19972103","type":"0","cclass":0,"value":75,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/103\/19972103.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE 75\u00a2","brand":"OSCAR MAYER","brandId":300,"companyId":1052,"link_text":null,"link_url":null,"activated":"2017-08-24T00:01:00-0700","expiration":"2017-10-24T23:59:00-0700","shutoff":"2017-09-21T23:59:59-0700","isuff":"103\/19972103.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any OSCAR MAYER\u00ae Natural Cold Cuts product","catid":492,"catdesc":"Lunch Meats","slot":-429,"prodinfo":"on any OSCAR MAYER\u00ae Natural Cold Cuts product","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"06699514","fid":"13272588","videoURL":null,"catlevel1":"107","catlevel2":"416","catlevel3":492,"catdesc1":"Foods","catdesc2":"Meats","catdesc3":"Lunch Meats","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"RETAILER:  Kraft Heinz Foods Company or a subsidiary, will reimburse the face value of this coupon plus handling if submitted in compliance with its Coupon Redemption Policy, previously provided to you and available upon request.  Cash value 1\/100\u00a2.  Coupon can only be distributed by Kraft Heinz Foods Company or its agent.  Mail to:  Kraft Heinz Foods Company 1539, NCH Marketing Services, P.O. Box 880001, El Paso, TX. 88588-0001. Offer expires on date noted above.  CONSUMER:  One coupon valid for item(s) indicated.  Consumer pays any sales tax and will not receive any credit or cash back if coupon value exceeds purchase price.  Any other use constitutes fraud.  VOID IF COPIED, TRANSFERRED, PURCHASED OR SOLD.  Valid only in the USA, FPOs and APOs.   \u00a92017 Kraft Foods                       304536","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19939182":{"podId":"19939182","type":"0","cclass":0,"value":75,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/182\/19939182.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $0.75","brand":"Marvel Cheese","brandId":43952,"companyId":107416,"link_text":null,"link_url":null,"activated":"2017-08-15T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-09-30T23:59:00-0700","isuff":"182\/19939182.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any ONE (1) Marvel Cheese Product","catid":440,"catdesc":"Cheese","slot":-427,"prodinfo":"on any ONE (1) Marvel Cheese Product","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"06416561","fid":"13522620","videoURL":null,"catlevel1":"107","catlevel2":"401","catlevel3":440,"catdesc1":"Foods","catdesc2":"Cheese","catdesc3":"Cheese","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Retailer: Schreiber Foods will redeem for face value plus 8\u00a2 provided you have complied with its terms and our redemption policy. ANY OTHER USE CONSTITUTES FRAUD. Send to Schreiber Foods, Inc., P.O. Box 880001, El Paso, TX 88588-0001. Cash value 1\/50 of 1\u00a2. Void where restricted. Limit one coupon per purchase. Do not double.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19799154":{"podId":"19799154","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/154\/19799154.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $1.00","brand":"Ziploc\u00ae","brandId":3865,"companyId":1058,"link_text":null,"link_url":null,"activated":"2017-07-16T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-08-30T23:59:59-0700","isuff":"154\/19799154.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any TWO (2) Ziploc\u00ae brand bags","catid":319,"catdesc":"Plastic Bags","slot":-427,"prodinfo":"on any TWO (2) Ziploc\u00ae brand bags","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"05703524","fid":"14095629","videoURL":null,"catlevel1":"105","catlevel2":"300","catlevel3":319,"catdesc1":"Household","catdesc2":"Bags \u0026 Wraps","catdesc3":"Plastic Bags","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"CONSUMER: Limit one coupon per purchase. Cannot be combined with any other coupon. Good only in the USA on purchase of brand\/size(s) indicated. Any other use constitutes fraud. Void if altered, reproduced, scanned, transferred, sold, or auctioned. You pay sales tax. RETAILER: S. C. Johnson \u0026 Son, Inc. will redeem this coupon for face value plus 8\u00a2 if submitted in compliance with its Coupon Policy. Mail coupons to: SC Johnson, CMS Dept 46500, 1 Fawcett Dr., Del Rio, TX 78840. Coupon Policy available from same address. Cash value 1\/100\u00a2.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19939163":{"podId":"19939163","type":"0","cclass":0,"value":75,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/163\/19939163.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $0.75","brand":"Disney Frozen\u00ae Cheese","brandId":44187,"companyId":107416,"link_text":null,"link_url":null,"activated":"2017-08-15T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-09-30T23:59:00-0700","isuff":"163\/19939163.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any ONE (1) Disney Frozen\u00ae Cheese Product","catid":440,"catdesc":"Cheese","slot":-426,"prodinfo":"on any ONE (1) Disney Frozen\u00ae Cheese Product","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"05733158","fid":"14206004","videoURL":null,"catlevel1":"107","catlevel2":"401","catlevel3":440,"catdesc1":"Foods","catdesc2":"Cheese","catdesc3":"Cheese","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Retailer: Schreiber Foods will redeem for face value plus 8\u00a2 provided you have complied with its terms and our redemption policy. ANY OTHER USE CONSTITUTES FRAUD. Send to Schreiber Foods, Inc., P.O. Box 880001, El Paso, TX 88588-0001. Cash value 1\/50 of 1\u00a2. Void where restricted. Limit one coupon per purchase. Do not double.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19971088":{"podId":"19971088","type":"0","cclass":0,"value":150,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/088\/19971088.gif","height":"100","width":"80"},"burstText":null,"summary":"$1.50 OFF","brand":"POND\u0027s\u00ae","brandId":44563,"companyId":1069,"link_text":null,"link_url":null,"activated":"2017-08-24T00:01:00-0700","expiration":"2017-10-22T23:59:00-0700","shutoff":"2017-09-22T23:59:59-0700","isuff":"088\/19971088.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"any ONE (1) Pond\u0027s product (excludes trial and travel sizes).","catid":191,"catdesc":"Facial Care","slot":-424,"prodinfo":"any ONE (1) Pond\u0027s product (excludes trial and travel sizes).","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"06629494","fid":"13341593","videoURL":null,"catlevel1":"101","catlevel2":"123","catlevel3":191,"catdesc1":"Personal Care","catdesc2":"Skin Care","catdesc3":"Facial Care","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Consumer:  LIMIT ONE (1) COUPON PER PURCHASE on product\/quantity specified and MAXIMUM OF TWO (2) IDENTICAL COUPONS allowed in same shopping trip.  Void if reproduced, transferred, used to purchase products for resale or where prohibited\/regulated by law.  Coupon value may not exceed value of item purchased.  NO CASH BACK. Consumer pays sales tax.  Redeemable at participating retail stores.  Valid only in the U.S.  NOT VALID IN PUERTO RICO.\nRetailer:  Unilever, Inc. 1370, NCH Marketing Services, P.O. Box 880001, El Paso, TX 88588-0001 will reimburse the face value of this coupon, plus 8c, if submitted in compliance with our redemption policy, available upon request.  Cash value 1\/100th of 1c.  Any use of this coupon not specified herein constitutes fraud.\n\u00a9 2017 UNILEVER","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19948365":{"podId":"19948365","type":"0","cclass":0,"value":150,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/365\/19948365.gif","height":"100","width":"80"},"burstText":null,"summary":"$1.50 OFF","brand":"Ore-Ida","brandId":43488,"companyId":1052,"link_text":null,"link_url":null,"activated":"2017-08-04T00:01:00-0700","expiration":"2017-11-30T23:59:00-0800","shutoff":"2017-10-31T23:59:59-0700","isuff":"365\/19948365.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"Any ONE (1) box of ORE-IDA Mashed Potatoes","catid":554,"catdesc":"Side Dishes","slot":-422,"prodinfo":"Any ONE (1) box of ORE-IDA Mashed Potatoes","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"14567006","fid":"05381358","videoURL":null,"catlevel1":"107","catlevel2":"552","catlevel3":554,"catdesc1":"Foods","catdesc2":"Frozen Foods","catdesc3":"Side Dishes","restricted":0,"limitReached":0,"storeIds":["201874","202056","191520","202064","178999","165406","199641","188797","113608","195180","205421","202067","186758","188116","186771","178996","133947","201888","202111","2456","157142","199661","2455","199658","202105","190158","179004","191980","201911","190155","177095","187342","195181","205442","202074","133910","205468","198916","202090","205417","198912","194700","2459","205484","205414","205474","139237","201849","205448","195182","136249","201875","176433","201840","197046","197044","201855","190156","176432","197043","199667","202076","157141","201894","205426","175932","202120","199324","163978","198932","171566","202119","202073","201912","197048","133941","181452","190151","201870","198908","201857","201873","2462","172711","167372","201901","205476","186769","165404","199639","201891","136250","192364","201880","197357","192361","157138","201832","201922","201883","201861","195186","186764","202097","192360","195184","166187","201834","196441","202095","201878","198915","199672","201881","172459","173035","188799","198917","201859","186762","205408","175933","197358","199656","205429","197352","202106","159110","205413","190157","2460","179000","198914","205450","139241","202104","188798","199648","201842","205434","187343","192363","201835","202078","169925","202080","205425","202059","200639","197047","179005","205403","205444","199674","198906","167371","186770","199654","126894","202062","139238","201886","201893","201877","198933","175931","202100","205441","159108","199671","205432","202082","205423","201867","198905","186761","202112","198924","190844","198907","202089","201907","198910","195176","195183","202063","188387","202107","199650","178997","197362","189528","201845","202084","202060","205486","205443","159104","198913","201854","195187","205420","197356","190154","201915","205405","205479","127627","201848","198929","199665","193198","205430","139244","191523","2461","202117","187341","202085","181453","191979","202061","201913","201831","202058","199640","202109","133911","157137","179762","191522","205445","174270","157140","201858","198925","133939","189829","201860","190161","205418","205410","188388","195177","199657","202077","177097","178995","190159","187784","126893","201908","201895","197353","205427","198911","201903","201897","202108","179002","190162","201899","195644","201904","195188","201896","202099","201905","167368","205449","157145","201885","177096","198934","205428","133898","205467","139243","195179","201876","133942","154338","202075","166188","157139","139236","198904","201884","201902","202072","205415","167370","205469","197349","139235","191524","198922","202096","197360","197045","201879","202115","159103","202055","199673","169926","187344","205461","201844","202118","198926","205481","197351","159105","194701","205485","157143","154341","199655","205433","202083","148413","201910","202103","202101","202116","202102","198937","202070","205422","201868","201900","199652","199653","180665","193199","133940","139239","201869","202081","201889","199649","198923","186760","193196","199666","176435","205407","186768","201852","198927","205431","129809","201914","201839","2458","205436","191982","205489","154339","190845","133946","202057","188800","165402","186767","198935","163979","201872","197354","157136","159109","205488","181707","197355","202091","201909","198921","205483","197049","202086","197359","139301","199659","186766","191978","190153","186772","201851","192362","159106","193197","202069","178998","187346","201833","202114","187345","175803","133950","165405","205480","188802","205411","202110","205487","205409","201856","188070","202098","136351","202092","186454","205438","201846","148136","198920","198930","205460","201850","205424","202079","198919","199662","179001","193200","136352","139242","205419","190160","199636","195185","205439","201847","201836","201866","201871","186763","205416","191981","201837","202113","198918","136350","186765","199637","201864","201892","202071","205446","170966","198909","167369","198928","201928","199638","190152","165403","201890","139185","186759","184577","133948","202068","199670","195178","205440","199669","197350","205494","133945","188801","202066","205482","201906","187340","201853","196020","201865","199651","173298","133949","191521","199668","205493","201838","133944","205412","199660","199664","202088","205447","202065","199663","202094","201862","201916","205437","201882","201843","202093","198931","205451","198936","201898","139240","205435","201841","179003","199323","154340"],"disclaimer":"RETAILER: Kraft Heinz Foods Company or a subsidiary, will reimburse the face value of this coupon plus handling if submitted in compliance with its Coupon Redemption Policy, previously provided to you and available upon request. Cash value 1\/100\u00a2. Coupon can only be distributed by Kraft Heinz Foods Company or its agent. Mail to: Kraft Heinz Foods Company 1539, NCH Marketing Services, P.O. Box 880001, El Paso, TX. 88588-0001. Offer expires on date noted above. CONSUMER: One coupon valid for item(s) indicated. Consumer pays any sales tax and will not receive any credit or cash back if coupon value exceeds purchase price. Any other use constitutes fraud. VOID IF COPIED, TRANSFERRED, PURCHASED OR SOLD. Valid only in the USA, FPOs and APOs. \u00a92017 Kraft Foods                                                                     304511","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19944148":{"podId":"19944148","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/148\/19944148.gif","height":"100","width":"80"},"burstText":null,"summary":"$1.00 OFF","brand":"Cooked Perfect\u00ae Meatballs","brandId":34477,"companyId":133500,"link_text":null,"link_url":null,"activated":"2017-08-14T00:01:00-0700","expiration":"2018-01-31T23:59:00-0800","shutoff":"2017-09-26T23:59:59-0700","isuff":"148\/19944148.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"any ONE (1) bag of Cooked Perfect\u00ae Meatballs","catid":5464,"catdesc":"Dinner: Multi-Serve","slot":-420,"prodinfo":"any ONE (1) bag of Cooked Perfect\u00ae Meatballs","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"14384699","fid":"05559448","videoURL":null,"catlevel1":"107","catlevel2":"552","catlevel3":5464,"catdesc1":"Foods","catdesc2":"Frozen Foods","catdesc3":"Dinner: Multi-Serve","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"TO THE RETAILER: We will pay you face value of the coupon plus 8 cents if all terms are met. TERMS: Good only in USA. LIMIT ONE COUPON PER PURCHASE. Coupon void if a reproduction; transferred before store redemption; prohibited, licensed, taxed or restricted; not presented by you; you do not show on request product invoices for all redeemed coupons. Customer pays sales tax. Mail To: Home Market Foods, Inc. CMS Dept #36669, 1 Fawcett Drive, Del Rio, TX 78840. \u00a9 2017 Home Market Foods, Inc. All rights reserved.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19940041":{"podId":"19940041","type":"0","cclass":0,"value":80,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/041\/19940041.gif","height":"100","width":"80"},"burstText":null,"summary":"Save $0.80","brand":"Werther\u0027s\u00ae Original\u00ae","brandId":43806,"companyId":102108,"link_text":null,"link_url":null,"activated":"2017-08-21T00:01:00-0700","expiration":"2017-11-30T23:59:00-0800","shutoff":"2017-09-17T23:59:59-0700","isuff":"041\/19940041.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any ONE (1) bag of Werther\u2019s\u00ae Original\u00ae Caramels 4.51 oz. or higher","catid":545,"catdesc":"Chocolate","slot":-418,"prodinfo":"on any ONE (1) bag of Werther\u2019s\u00ae Original\u00ae Caramels 4.51 oz. or higher","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"06715415","fid":"13224625","videoURL":null,"catlevel1":"107","catlevel2":"403","catlevel3":545,"catdesc1":"Foods","catdesc2":"Confections","catdesc3":"Chocolate","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Retailer: Storck USA, L.P. will reimburse you the face value of this coupon plus 8\u00a2 for handling if submitted in accordance with our Coupon Redemption Policy, available at www.nchmarketing.com. Cash value 1\/20 of one cent. \u00a92017 Storck USA, L.P. Mail coupons to: STORCK USA, L.P., P.O. BOX 880772, El Paso, TX 88588-0772. Consumer: Good on Werther\u2019s\u00ae Original\u00ae 4.51oz bags or higher. Coupon cannot be used in combination with any other coupon. Valid only in USA, APOs and FPOs. Void if sold, transferred, reproduced, prohibited, taxed, or restricted. You pay any sales tax.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19879199":{"podId":"19879199","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/199\/19879199.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $1.00 ON TWO","brand":"General Mills Fruit Snacks","brandId":34655,"companyId":1065,"link_text":null,"link_url":null,"activated":"2017-08-01T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-08-31T23:59:00-0700","isuff":"199\/19879199.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"when you buy TWO BOXES any flavor\/variety Betty Crocker\u2122 Fruit Shapes, Fruit by the Foot\u2122, Fruit Gushers\u2122 or ...","catid":515,"catdesc":"Sweet Snacks","slot":-411,"prodinfo":"when you buy TWO BOXES any flavor\/variety Betty Crocker\u2122 Fruit Shapes, Fruit by the Foot\u2122, Fruit Gushers\u2122 or ...","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"06022891","fid":"13856307","videoURL":null,"catlevel1":"107","catlevel2":"424","catlevel3":515,"catdesc1":"Foods","catdesc2":"Snacks","catdesc3":"Sweet Snacks","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Void if altered, copied, sold, purchased, transferred, exchanged or where prohibited or restricted by law. One coupon per purchase of specified product(s). Good only in USA, APOs \u0026 FPOs. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax. RETAILER: General Mills will reimburse you the face value of this coupon plus handling if submitted in compliance with our redemption policy. Copy available upon request. Cash value 1\/100 cent. Send to GENERAL MILLS 8, NCH Marketing Services, P.O. Box 880001, El Paso TX 88588-0001 or an authorized clearinghouse. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19879147":{"podId":"19879147","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/147\/19879147.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $1.00 ON TWO","brand":"Big G Cereals","brandId":260,"companyId":1065,"link_text":null,"link_url":null,"activated":"2017-08-01T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-08-31T23:59:00-0700","isuff":"147\/19879147.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"when you buy TWO BOXES any flavor General Mills cereal listed: Cheerios\u2122 \u2022 Cinnamon Toast Crunch\u2122 \u2022 Lucky Charms\u2122 ...","catid":531,"catdesc":"Ready to Eat Cereal","slot":-399,"prodinfo":"when you buy TWO BOXES any flavor General Mills cereal listed: Cheerios\u2122 \u2022 Cinnamon Toast Crunch\u2122 \u2022 Lucky Charms\u2122 ...","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"09255098","fid":"10624048","videoURL":null,"catlevel1":"107","catlevel2":"399","catlevel3":531,"catdesc1":"Foods","catdesc2":"Breakfast","catdesc3":"Ready to Eat Cereal","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Void if altered, copied, sold, purchased, transferred, exchanged or where prohibited or restricted by law. One coupon per purchase of specified product(s). Good only in USA, APOs \u0026 FPOs. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax. RETAILER: General Mills will reimburse you the face value of this coupon plus handling if submitted in compliance with our redemption policy. Copy available upon request. Cash value 1\/100 cent. Send to GENERAL MILLS 8, NCH Marketing Services, P.O. Box 880001, El Paso TX 88588-0001 or an authorized clearinghouse. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19971125":{"podId":"19971125","type":"0","cclass":0,"value":200,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/125\/19971125.gif","height":"100","width":"80"},"burstText":null,"summary":"$2.00 OFF","brand":"SIMPLE\u00ae","brandId":44619,"companyId":1069,"link_text":null,"link_url":null,"activated":"2017-08-24T00:01:00-0700","expiration":"2017-10-22T23:59:00-0700","shutoff":"2017-09-22T23:59:59-0700","isuff":"125\/19971125.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"any ONE (1) Simple\u00ae Water Boost Micellar Water (13.5 oz), Hydrating Booster, or Micellar Gel Wash","catid":191,"catdesc":"Facial Care","slot":-398,"prodinfo":"any ONE (1) Simple\u00ae Water Boost Micellar Water (13.5 oz), Hydrating Booster, or Micellar Gel Wash","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"09780952","fid":"10190172","videoURL":null,"catlevel1":"101","catlevel2":"123","catlevel3":191,"catdesc1":"Personal Care","catdesc2":"Skin Care","catdesc3":"Facial Care","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Consumer: LIMIT ONE (1) COUPON PER PURCHASE on product\/quantity specified and MAXIMUM OF TWO (2) IDENTICAL COUPONS allowed in same shopping trip. Void if reproduced, transferred, used to purchase products for resale or where prohibited\/regulated by law. Coupon value may not exceed value of item purchased. NO CASH BACK. Consumer pays sales tax. Redeemable at participating retail stores. Valid only in the U.S. NOT VALID IN PUERTO RICO. Retailer: Unilever, Inc. 1370, NCH Marketing Services, P.O. Box 880001, El Paso, TX 88588-0001 will reimburse the face value of this coupon, plus 8c, if submitted in compliance with our redemption policy, available upon request. Cash value 1\/100th of 1c. Any use of this coupon not specified herein constitutes fraud. \u00a9 2017 UNILEVER","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19953154":{"podId":"19953154","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/154\/19953154.gif","height":"100","width":"80"},"burstText":null,"summary":"$1.00 OFF","brand":"DOLE\u00ae Mixations\u00ae","brandId":40537,"companyId":122137,"link_text":null,"link_url":null,"activated":"2017-08-20T00:01:00-0700","expiration":"2017-10-24T23:59:00-0700","shutoff":"2017-09-13T23:59:59-0700","isuff":"154\/19953154.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"any ONE (1) package of DOLE\u00ae Mixations\u00ae","catid":515,"catdesc":"Sweet Snacks","slot":-397,"prodinfo":"any ONE (1) package of DOLE\u00ae Mixations\u00ae","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"05006773","fid":"14946380","videoURL":null,"catlevel1":"107","catlevel2":"424","catlevel3":515,"catdesc1":"Foods","catdesc2":"Snacks","catdesc3":"Sweet Snacks","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"CONSUMER: One coupon per purchase, only for product and size indicated. Limit of four (4) like coupons in the same shopping trip. Original coupon only. Not to be transferred, sold or reproduced. Not valid in combination with other offers. Consumer pays any sales tax. RETAILER: DOLE will reimburse the face value of coupon plus 8\u00a2 handling if submitted in compliance with DOLE Coupon Redemption Policy (available on request). You may be required to show invoices for inventory to cover redeemed coupons. Void where prohibited. Cash value 1\/20 of 1\u00a2. Valid only in U.S.A. Send coupons to DOLE, CMS Dept #38900, 1 Fawcett Drive, Del Rio, TX 78840. \u00ae, TM \u0026 \u00a9 2017 Dole Packaged Foods, LLC.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19899055":{"podId":"19899055","type":"0","cclass":0,"value":25,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/055\/19899055.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $0.25","brand":"Palmolive\u00ae","brandId":11651,"companyId":100159,"link_text":null,"link_url":null,"activated":"2017-08-20T00:01:00-0700","expiration":"2017-10-02T23:59:00-0700","shutoff":"2017-09-02T23:59:59-0700","isuff":"055\/19899055.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"On any Palmolive\u00ae Ultra Dish Liquid","catid":326,"catdesc":"Dishwashing Supplies","slot":-388,"prodinfo":"On any Palmolive\u00ae Ultra Dish Liquid","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"14772321","fid":"05126733","videoURL":null,"catlevel1":"105","catlevel2":"302","catlevel3":326,"catdesc1":"Household","catdesc2":"Dishwashing Supplies","catdesc3":"Dishwashing Supplies","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"CONSUMER: LIMIT ONE (1) COUPON PER PURCHASE OF PRODUCT AND QUANTITY STATED. No more than four (4) identical coupons for the same product in the same day. Do not send this coupon to Colgate-Palmolive Company. Void if transferred, sold, auctioned, reproduced or altered from original. You must pay any sales tax. RETAILER: Colgate-Palmolive Company will reimburse the face value plus 10\u00a2 handling if submitted in accordance with our Redemption Policy. For policy and\/or coupon redemption send to: Colgate-Palmolive Company 1119, P.O. Box 880001, El Paso, TX 88588-0001. Cash Value 1\/100\u00a2. No cash back if coupon value exceeds selling price. Coupon may not be bought, reproduced, transferred or sold. Void where prohibited or if transferred to any person, firm or group prior to store redemption. Valid only in the USA. Not Valid in Puerto Rico. Redeemable at Food, Drug, Discount and other Stores accepting coupons.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19972096":{"podId":"19972096","type":"0","cclass":0,"value":100,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/096\/19972096.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE $1.00","brand":"OSCAR MAYER","brandId":300,"companyId":1052,"link_text":null,"link_url":null,"activated":"2017-08-24T00:01:00-0700","expiration":"2017-10-24T23:59:00-0700","shutoff":"2017-09-16T23:59:59-0700","isuff":"096\/19972096.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any OSCAR MAYER\u00ae Natural Dinner Sausage product","catid":3312,"catdesc":"Deli","slot":-373,"prodinfo":"on any OSCAR MAYER\u00ae Natural Dinner Sausage product","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"11337866","fid":"08634229","videoURL":null,"catlevel1":"107","catlevel2":"3311","catlevel3":3312,"catdesc1":"Foods","catdesc2":"Deli","catdesc3":"Deli","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"RETAILER:  Kraft Heinz Foods Company or a subsidiary, will reimburse the face value of this coupon plus handling if submitted in compliance with its Coupon Redemption Policy, previously provided to you and available upon request.  Cash value 1\/100\u00a2.  Coupon can only be distributed by Kraft Heinz Foods Company or its agent.  Mail to:  Kraft Heinz Foods Company 1539, NCH Marketing Services, P.O. Box 880001, El Paso, TX. 88588-0001. Offer expires on date noted above.  CONSUMER:  One coupon valid for item(s) indicated.  Consumer pays any sales tax and will not receive any credit or cash back if coupon value exceeds purchase price.  Any other use constitutes fraud.  VOID IF COPIED, TRANSFERRED, PURCHASED OR SOLD.  Valid only in the USA, FPOs and APOs.\u00a0 \u00a9 2017 Kraft Foods                                                                                304535","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19879394":{"podId":"19879394","type":"0","cclass":0,"value":50,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/394\/19879394.gif","height":"100","width":"80"},"burstText":null,"summary":"SAVE 50\u00a2 ON TWO","brand":"Chex Mix, Bugles, Gardetto\u0027s","brandId":33944,"companyId":1065,"link_text":null,"link_url":null,"activated":"2017-08-01T00:01:00-0700","expiration":"2017-09-30T23:59:00-0700","shutoff":"2017-08-31T23:59:00-0700","isuff":"394\/19879394.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"when you buy\u00a0TWO BAGS\u00a0any\u00a03.7 OZ. OR LARGER\u00a0Chex Mix\u2122, Chex Mix\u2122 Muddy Buddies\u2122, Chex Mix\u2122 Popped\u2122, ...","catid":513,"catdesc":"Portable Snacks","slot":-371,"prodinfo":"when you buy\u00a0TWO BAGS\u00a0any\u00a03.7 OZ. OR LARGER\u00a0Chex Mix\u2122, Chex Mix\u2122 Muddy Buddies\u2122, Chex Mix\u2122 Popped\u2122, ...","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"13509653","fid":"06369740","videoURL":null,"catlevel1":"107","catlevel2":"424","catlevel3":513,"catdesc1":"Foods","catdesc2":"Snacks","catdesc3":"Portable Snacks","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"Void if altered, copied, sold, purchased, transferred, exchanged or where prohibited or restricted by law. One coupon per purchase of specified product(s). Good only in USA, APOs \u0026 FPOs. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax. RETAILER: General Mills will reimburse you the face value of this coupon plus handling if submitted in compliance with our redemption policy. Copy available upon request. Cash value 1\/100 cent. Send to GENERAL MILLS 8, NCH Marketing Services, P.O. Box 880001, El Paso TX 88588-0001 or an authorized clearinghouse. CONSUMER: No other coupon may be used with this coupon. Consumer pays any sales tax.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19944139":{"podId":"19944139","type":"0","cclass":0,"value":150,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/139\/19944139.gif","height":"100","width":"80"},"burstText":null,"summary":"$1.50 OFF","brand":"Cooked Perfect\u00ae Fire Grilled Chicken","brandId":38462,"companyId":133500,"link_text":null,"link_url":null,"activated":"2017-08-14T00:01:00-0700","expiration":"2018-01-31T23:59:00-0800","shutoff":"2017-11-30T23:59:00-0800","isuff":"139\/19944139.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"any ONE (1) bag of Cooked Perfect\u00ae Fire Grilled Chicken","catid":5464,"catdesc":"Dinner: Multi-Serve","slot":-370,"prodinfo":"any ONE (1) bag of Cooked Perfect\u00ae Fire Grilled Chicken","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"08837069","fid":"11107069","videoURL":null,"catlevel1":"107","catlevel2":"552","catlevel3":5464,"catdesc1":"Foods","catdesc2":"Frozen Foods","catdesc3":"Dinner: Multi-Serve","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"TO THE RETAILER: We will pay you face value of the coupon plus 8 cents if all terms are met. TERMS: Good only in USA. LIMIT ONE COUPON PER PURCHASE. Coupon void if a reproduction; transferred before store redemption; prohibited, licensed, taxed or restricted; not presented by you; you do not show on request product invoices for all redeemed coupons. Customer pays sales tax. Mail To: Home Market Foods, Inc. CMS Dept #36669, 1 Fawcett Drive, Del Rio, TX 78840. \u00a9 2017 Home Market Foods, Inc. All rights reserved.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19921386":{"podId":"19921386","type":"0","cclass":0,"value":75,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/386\/19921386.gif","height":"100","width":"80"},"burstText":null,"summary":"$0.75 Off","brand":"fairlife\u00ae SuperKids\u2122","brandId":43629,"companyId":140044,"link_text":null,"link_url":null,"activated":"2017-08-01T00:01:00-0700","expiration":"2017-10-12T23:59:00-0700","shutoff":"2017-09-12T23:59:59-0700","isuff":"386\/19921386.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on ONE (1) fairlife\u00ae SuperKids\u2122 Bottle","catid":536,"catdesc":"Dairy","slot":-369,"prodinfo":"on ONE (1) fairlife\u00ae SuperKids\u2122 Bottle","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"05172970","fid":"14748415","videoURL":null,"catlevel1":"103","catlevel2":"535","catlevel3":536,"catdesc1":"Beverages","catdesc2":"Dairy","catdesc3":"Dairy","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"fairlife, LLC will reimburse you the face value of this coupon plus 8 cents handling for coupons redeemed in accordance with this offer. Invoices proving purchase of sufficient stock to support coupon submissions must be provided upon request. Consumers are limited to five coupons per purchase and are responsible for all taxes. Cash value is .0001 cents. Send all coupons to: fairlife LLC, PO Box 880127, El Paso, TX 88588-0127","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null},"19904146":{"podId":"19904146","type":"0","cclass":0,"value":200,"category":null,"image":{"url":"\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/146\/19904146.gif","height":"100","width":"80"},"burstText":null,"summary":"$2.00 OFF","brand":"Man Cave\u00ae Craft Eats","brandId":43307,"companyId":145862,"link_text":null,"link_url":null,"activated":"2017-07-12T00:01:00-0700","expiration":"2018-03-30T23:59:00-0700","shutoff":"2018-01-27T23:58:59-0800","isuff":"146\/19904146.gif","imagePrefix":"http:\/\/cdn.cpnscdn.com\/insight.coupons.com\/COS20\/_Cache\/_ImageCache\/","details":"on any ONE (1) Man Cave\u00ae Craft Eats Product","catid":490,"catdesc":"Breakfast Meats","slot":-368,"prodinfo":"on any ONE (1) Man Cave\u00ae Craft Eats Product","cpnuse":null,"printed":null,"actiontaken":null,"printCount":null,"onCard":null,"sid":"08716311","fid":"11187834","videoURL":null,"catlevel1":"107","catlevel2":"416","catlevel3":490,"catdesc1":"Foods","catdesc2":"Meats","catdesc3":"Breakfast Meats","restricted":0,"limitReached":0,"storeIds":[],"disclaimer":"CONSUMER: Redeem only by purchasing the brand and size(s) indicated. May not be reproduced. Void if transferred to any person, firm, or group prior to store redemption. Any other use constitutes fraud.  Consumer pays sales tax.   Discount may not be combined with any other offer.  No cashback. LIMIT ONE COUPON PER PURCHASE.\nRETAILER: Man Cave Foods LLC reimburse you the face value of this coupon plus 8 cents handling in accordance with our redemption policy (copy available upon request). Consumer must pay any sales tax. Send all redeemed coupons Man Cave Foods LLC, Mandlik \u0026 Rhodes, PO Box 490, Dept # 1687, Tecate, CA 91980. Failure to produce invoices on request providing purchase of stock covering coupons may void all coupons submitted.  Void if copied, reproduced, altered, transferred, sold or exchanged. Cash value: 1\/100\u00a2.","sensitive":false,"authPrintEnabled":true,"isSpecialCampaign":null,"departmentCode":null,"departmentDesc":null}},"allPodsIDs":[19879171,19972156,19880000,19858386,19947175,19880003,19971139,19951116,19879115,19972103,19939182,19799154,19939163,19971088,19948365,19944148,19940041,19879199,19879147,19971125,19953154,19899055,19972096,19879394,19944139,19921386,19904146],"podNote":"Premium Offer","brands":[],"preClippedCids":false,"txt":{"printable":{"Clip":"clip coupon","Clipped":"clipped","Print_Limit_Reached":"limit reached","Addedtocard_Limit_Reached":"added to card"},"cpc":{"Clip":"click to save","Click_Limit_Reached":"limit reached","ClipSecondary":"(opens new window)"},"duet":{"Clip":"sign up and save","ClipSecondary":"(clip after signup)"},"video":{"Clip":"click to watch","ClipSecondary":"(redeem after video)"},"pageBreak":"","pageTitle":"Free Printable Coupons","pageSubTitleSingular":"{count} grocery coupon is available for you. Just \u003Cem\u003EClick,\u003C\/em\u003E \u003Cem\u003EPrint\u003C\/em\u003E and \u003Cem\u003ESave.\u003C\/em\u003E","pageSubTitlePlural":"{count} grocery coupons are available for you. Just \u003Cem\u003EClick,\u003C\/em\u003E \u003Cem\u003EPrint\u003C\/em\u003E and \u003Cem\u003ESave.\u003C\/em\u003E","pageLoading":"Loading","BackToHome":"See more printable offers"}},"printblock":false,"userstudy":{"experience":"lightbox","feedbackDialog":1},"deferred":{"css":{"default":["\/\/cdn.cpnscdn.com\/nv.web\/combo\/css\/79ffa58a6185df20802f7a48d39470e7.css"]},"js":{"default":["\/\/cdn.cpnscdn.com\/nv.web\/combo\/js\/8b9570d93a1adb9d0751c8b65f42c3a9.js"],"IE 8":["\/\/cdn.cpnscdn.com\/nv.web\/combo\/js\/406623c84bce8125aa5994569459bd98.js"]}}}};
+    </script>
+
+     <script type="text/javascript" src="//cdn.cpnscdn.com/nv.web/combo/js/82afadfb9cddf17efacfcdd1b13ce05e.js"></script> <!--[if (lte IE 9)]> <script type="text/javascript" src="//cdn.cpnscdn.com/nv.web/combo/js/e199bca5e8af5684886af120f0be2872.js"></script><![endif]--><script type="text/javascript" src="//widgets.coupons.com/js/static/dust-core.js"></script>
+<script type="text/javascript" src=" //widgets.coupons.com/js/static/couponscom-widget-v2.js"></script>    <div id="fb-root"></div>    <script src="//s.btstatic.com/tag.js" async="async">
+    { site: APP_COUPONSINC.contextData.brighttag.siteid, host: "s.thebrighttag.com" }
+</script>
+<noscript>
+    <iframe src="//s.thebrighttag.com/iframe?c=i54834M" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+</body>
+</html>
+<!-- las-web202 Sun, 27 Aug 2017 05:02:16 -0700 39415 -->
+
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1061)
+	at com.agolo.crawlers.inputs.rss.RssInput.getEntryContent(RssInput.java:108)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1351)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.agolo.crawlers.inputs.rss.RssInput.getLatestDocuments(RssInput.java:93)
+	at com.agolo.crawlers.inputs.Input.getLatestDocuments(Input.java:13)
+	at com.agolo.crawlers.RssCrawlerWorker.fetchDocuments(RssCrawlerWorker.java:281)
+	at com.agolo.crawlers.RssCrawlerWorker.processTask(RssCrawlerWorker.java:212)
+	at com.agolo.crawlers.RssCrawlerWorker.main(RssCrawlerWorker.java:162)
+2017-08-27 21:55:36 [main] INFO  com.agolo.crawlers.RssCrawlerWorker  Finished crawling RSS feed http://feeds.feedburner.com/dienekes
+2017-08-27 21:55:36 IGNORE THIS LOG - MULTILINE CODEC TAKES TIME TO HANDLE THE LAST LINE SENT
