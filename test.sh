@@ -69,7 +69,7 @@ logstashTest() {
   wait $test_pid
   test_status=$?
   END=$(date +%s)
-  DIFF=$(( "$END" - "$START" ))
+  DIFF=$(( $END - $START ))
   benchmarks[$TEST_DIRECTORY]="${DIFF}s"
 
   # if icdiff $TEST_RESULT_FILE "$TEST_DIRECTORY/output.log"
