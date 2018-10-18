@@ -8,12 +8,12 @@ To add a tests, simply add a new directory with the given input `input.log`, the
 ## Prerequisites
 
 * Install nodejs > 8
-* Run `npm install`
 * Install Docker
 
 # Setup
 
 * Clone repository
+* Run `npm install`
 * Setup your test directory as follows
 
 ```sh
@@ -29,6 +29,7 @@ __tests__
   # ...
 ```
 
+* Make sure docker is running
 * Run your tests
 
 ```sh
@@ -37,3 +38,7 @@ __tests__
 ```
 
 NOTE: Multiline logs in logstash need translate in reverse to filebeat in terms of `multiline.match` from `previous` => `after` and `next` => `before`.
+
+## Ignoring Timestamps
+
+By default, we ignore `timestamp` and `@timestamp` fields. You can customize this in the [./test.sh](./test.sh) where we use the ignore flag like so `./log-diff.js -i`.

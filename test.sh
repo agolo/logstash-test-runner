@@ -52,6 +52,7 @@ log() {
 logstashTest() {
   TEST_DIRECTORY="$1"
   echo '' > $TEST_RESULT_FILE
+  chmod 777 $TEST_RESULT_FILE
 
   START=$(date +%s)
   docker run \
@@ -72,8 +73,8 @@ logstashTest() {
   DIFF=$(( $END - $START ))
   benchmarks[$TEST_DIRECTORY]="${DIFF}s"
 
-  # if icdiff $TEST_RESULT_FILE "$TEST_DIRECTORY/output.log"
-  [ "$test_status" = "0" ] && ./log-diff.js -i '@timestamp' -c "$TEST_DIRECTORY/output.log,$TEST_RESULT_FILE"
+  # here we ignore comparison of timestamp fields. You can ignore any other fields you need to
+  [ "$test_status" = "0" ] && ./log-diff.js -i '@timestamp,timestamp' -c "$TEST_DIRECTORY/output.log,$TEST_RESULT_FILE"
 }
 
 # TODO: Check if docker is running
