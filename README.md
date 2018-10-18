@@ -7,10 +7,11 @@ To add a tests, simply add a new directory with the given input `input.log`, the
 
 ## Prerequisites
 
-* Install nodejs > 8
-* Install Docker
+* NodeJS > v8
+* Docker
+* Bash > v4
 
-# Setup
+## Setup
 
 * Clone repository
 * Run `npm install`
