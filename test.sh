@@ -10,6 +10,13 @@ NC='\033[0m' # No Color
 
 TEST_RESULT_FILE="test_output.log"
 TEST_PARENT_DIRECTORY=$1
+
+if [[ "$2" != "" ]]; then
+    TEST_LOGSTASH_IMAGE=$2
+else
+    TEST_LOGSTASH_IMAGE="docker.elastic.co/logstash/logstash:5.5.1"
+fi
+
 declare -A benchmarks
 
 spinner() {
@@ -55,6 +62,7 @@ logstashTest() {
   chmod 777 $TEST_RESULT_FILE
 
   START=$(date +%s)
+
   docker run \
     --rm \
     -i \
@@ -62,7 +70,7 @@ logstashTest() {
     -v "$PWD/$TEST_DIRECTORY/logstash.conf":/usr/share/logstash/pipeline/logstash.conf \
     -v "$PWD/logstash-common.conf":/usr/share/logstash/pipeline/logstash-common.conf \
     -v "$PWD/$TEST_RESULT_FILE":/output.log \
-    docker.elastic.co/logstash/logstash:5.5.1 < "$TEST_DIRECTORY/input.log" 2>/dev/null &
+    "$TEST_LOGSTASH_IMAGE" < "$TEST_DIRECTORY/input.log" 2>/dev/null &
 
   # SPINNER
   test_pid=$!
