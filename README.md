@@ -40,7 +40,7 @@ __tests__
 ./test.sh __tests__
 
 # Run tests using a locally built logstash docker image
-./test.sh __tests__ my_logstash_image
+./test.sh __tests__ my_logstash_image:mytag
 ```
 
 NOTE: Multiline logs in logstash need translate in reverse to filebeat in terms of `multiline.match` from `previous` => `after` and `next` => `before`.
