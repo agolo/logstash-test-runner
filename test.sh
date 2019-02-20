@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 TEST_RESULT_FILE="test_output.log"
 TEST_PARENT_DIRECTORY=$1
 
-if [[ "$2" != "" ]]; then
+if [ ! -z "${2:-}" ]; then
     TEST_LOGSTASH_IMAGE=$2
 else
     TEST_LOGSTASH_IMAGE="docker.elastic.co/logstash/logstash:5.5.1"
